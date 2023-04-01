@@ -2,7 +2,7 @@
 
  2022/2023
 
-Zadanie 1 -   kolejka 
+Zadanie 2 -   sortowanie
 
 ## Building
 
@@ -30,7 +30,7 @@ Things to remember during upgrading project to new task:
 //                         Locate files (change as needed).
 // --------------------------------------------------------------------------------
 set(SOURCES          // All .cpp files in src/
-    src/.cpp
+    src/quick_sort.cpp
   
     
      // etc.

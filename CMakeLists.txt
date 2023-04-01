@@ -39,7 +39,7 @@ find_lto(CXX)
 # --------------------------------------------------------------------------------
 set(SOURCES          # All .cpp files in src/
     
-    src/.cpp
+    src/quick_sort.cpp
     
 )
 set(TESTFILES        # All .cpp files in tests/
