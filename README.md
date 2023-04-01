@@ -1,8 +1,8 @@
-# pamsi 1
+# pamsi 2
 
  2022/2023
 
-Zadanie 1 -   kolejka 
+Zadanie 2 -   sortowanie 
 
 ## Building
 
