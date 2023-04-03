@@ -4,6 +4,7 @@
 tests/CMakeFiles/unit_tests.dir/main.cpp.o
  /home/michal/Desktop/PAMSI_projekt2/tests/main.cpp
 tests/CMakeFiles/unit_tests.dir/test_file.cpp.o
+ ../inc/merge_sort.hh
  ../inc/quick_sort..hh
  /home/michal/Desktop/PAMSI_projekt2/tests/doctest/doctest.h
  /home/michal/Desktop/PAMSI_projekt2/tests/test_file.cpp

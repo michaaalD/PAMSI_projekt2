@@ -1,6 +1,8 @@
 
 #include "doctest/doctest.h"
 #include "quick_sort..hh"
+#include "merge_sort.hh"
+
 // This is all that is needed to compile a test-runner executable.
 // More tests can be added here, or in a new tests/*.cpp file.
 
@@ -15,4 +17,10 @@ TEST_CASE("Sortowanie quick_sort")
     {
        CHECK(a[i] == c[i]);
     }
+}
+
+TEST_CASE("Sortowanie przez scalanie")
+{
+    
+    
 }

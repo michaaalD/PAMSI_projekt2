@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/michal/Desktop/PAMSI_projekt2/src/merge_sort.cpp" "/home/michal/Desktop/PAMSI_projekt2/build/CMakeFiles/program.dir/src/merge_sort.cpp.o"
   "/home/michal/Desktop/PAMSI_projekt2/src/quick_sort.cpp" "/home/michal/Desktop/PAMSI_projekt2/build/CMakeFiles/program.dir/src/quick_sort.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

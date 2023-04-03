@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../inc/merge_sort.hh
+iostream
+-
+
 ../inc/quick_sort..hh
 iostream
 -
@@ -99,4 +103,6 @@ doctest/doctest.h
 /home/michal/Desktop/PAMSI_projekt2/tests/doctest/doctest.h
 quick_sort..hh
 /home/michal/Desktop/PAMSI_projekt2/tests/quick_sort..hh
+merge_sort.hh
+/home/michal/Desktop/PAMSI_projekt2/tests/merge_sort.hh
 

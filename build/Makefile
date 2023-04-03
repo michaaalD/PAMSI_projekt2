@@ -649,6 +649,33 @@ app/main.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/app/main.cpp.s
 .PHONY : app/main.cpp.s
 
+src/merge_sort.o: src/merge_sort.cpp.o
+
+.PHONY : src/merge_sort.o
+
+# target to build an object file
+src/merge_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/merge_sort.cpp.o
+.PHONY : src/merge_sort.cpp.o
+
+src/merge_sort.i: src/merge_sort.cpp.i
+
+.PHONY : src/merge_sort.i
+
+# target to preprocess a source file
+src/merge_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/merge_sort.cpp.i
+.PHONY : src/merge_sort.cpp.i
+
+src/merge_sort.s: src/merge_sort.cpp.s
+
+.PHONY : src/merge_sort.s
+
+# target to generate assembly for a file
+src/merge_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/merge_sort.cpp.s
+.PHONY : src/merge_sort.cpp.s
+
 src/quick_sort.o: src/quick_sort.cpp.o
 
 .PHONY : src/quick_sort.o
@@ -727,6 +754,9 @@ help:
 	@echo "... app/main.o"
 	@echo "... app/main.i"
 	@echo "... app/main.s"
+	@echo "... src/merge_sort.o"
+	@echo "... src/merge_sort.i"
+	@echo "... src/merge_sort.s"
 	@echo "... src/quick_sort.o"
 	@echo "... src/quick_sort.i"
 	@echo "... src/quick_sort.s"

@@ -40,6 +40,7 @@ find_lto(CXX)
 set(SOURCES          # All .cpp files in src/
     
     src/quick_sort.cpp
+    src/merge_sort.cpp
     
 )
 set(TESTFILES        # All .cpp files in tests/

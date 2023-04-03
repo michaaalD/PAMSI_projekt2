@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/michal/Desktop/PAMSI_projekt2/inc/quick_sort..hh
+/home/michal/Desktop/PAMSI_projekt2/inc/merge_sort.hh
 iostream
 -
 
-/home/michal/Desktop/PAMSI_projekt2/src/quick_sort.cpp
-../inc/quick_sort..hh
-/home/michal/Desktop/PAMSI_projekt2/inc/quick_sort..hh
+/home/michal/Desktop/PAMSI_projekt2/src/merge_sort.cpp
+../inc/merge_sort.hh
+/home/michal/Desktop/PAMSI_projekt2/inc/merge_sort.hh
 
