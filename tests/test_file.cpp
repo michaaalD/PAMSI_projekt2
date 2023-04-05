@@ -21,6 +21,15 @@ TEST_CASE("Sortowanie quick_sort")
 
 TEST_CASE("Sortowanie przez scalanie")
 {
+    int a[] = {3,5,0,1,6};
+    int c[] = {0,1,3,5,6};
     
+    int last = (sizeof(a)/sizeof(int));
+    
+    mergeSort(a,0,last);
+    for(int i=0; i < last; i++)
+    {
+        CHECK(a[i] == c[i]);
+    }
     
 }
