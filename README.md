@@ -32,7 +32,7 @@ Things to remember during upgrading project to new task:
 set(SOURCES          // All .cpp files in src/
     src/quick_sort.cpp
     src/merge_sort.cpp
-  
+    
     
      // etc.
 )

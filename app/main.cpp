@@ -6,6 +6,7 @@
 #include <iostream>
 #include "../inc/quick_sort..hh"
 #include "../inc/merge_sort.hh"
+#include "../inc/intro.hh"
 
 int main()
 
@@ -30,6 +31,26 @@ int main()
     {
         std::cout << a[i] << std::endl;
     }
-    
+
+    int x[] = {4,6,1,2,7};
+    hybridIntroSort(x,0,4);
+    for(int i=0; i < last; i++)
+    {
+        std::cout << x[i] << std::endl;
+    }
+
+/*
+     float arr[]
+        = { 0.897, 0.565, 0.656, 0.1234, 0.665, 0.3434 };
+    int n = sizeof(arr) / sizeof(arr[0]);
+    bucketSort(arr, n);
+  
+    std::cout << "Sorted array is \n";
+
+    for (int i = 0; i < n; i++)
+        std::cout << arr[i] << " ";
+   */
+
+
     return 0;
 }

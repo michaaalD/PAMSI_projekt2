@@ -2,6 +2,7 @@
 #include "doctest/doctest.h"
 #include "quick_sort..hh"
 #include "merge_sort.hh"
+#include "intro.hh"
 
 // This is all that is needed to compile a test-runner executable.
 // More tests can be added here, or in a new tests/*.cpp file.
@@ -32,4 +33,19 @@ TEST_CASE("Sortowanie przez scalanie")
         CHECK(a[i] == c[i]);
     }
     
+}
+
+
+TEST_CASE("Sortowanie introspektywne")
+{
+    int a[] = {9,6,2,5,1};
+    int c[] = {1,2,5,6,9};
+    
+    int last = (sizeof(a)/sizeof(int));
+    
+    hybridIntroSort(a,0,last);
+    for(int i=0; i < last; i++)
+    {
+        CHECK(a[i] == c[i]);
+    }
 }
