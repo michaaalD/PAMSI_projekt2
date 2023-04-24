@@ -6,17 +6,18 @@
 #include "../inc/quick_sort..hh"
 
 
-
-void insertionSort(int* arr, int start, int end) 
+template<typename T>
+void insertionSort(T* arr, int start, int end) 
 {
-    int key;  
+    T key;  
     int i, j;
     for(i = start + 1; i < end; i++) 
     {
         key = arr[i]; 
         j = i - 1;
         
-        while (j >= start && key < arr[j]) {
+        while(j >= start && key < arr[j]) 
+        {
             arr[j + 1] = arr[j];
             --j;
         }
@@ -25,10 +26,10 @@ void insertionSort(int* arr, int start, int end)
 }
 
 
-
-void heapify(int* arr, int heap_size, int i) 
+template<typename T>
+void heapify(T* arr, int heap_size, int i) 
 {
-    int temp;
+    T temp;
     int largest, l = 2 * i, r = (2 * i) + 1;
     if(l <= heap_size && arr[l] > arr[i])
         largest = l;
@@ -46,10 +47,10 @@ void heapify(int* arr, int heap_size, int i)
 }
 
 
-
-void heapSort(int* arr, int heap_size) 
+template<typename T>
+void heapSort(T* arr, int heap_size) 
 {
-    int temp;
+    T temp;
     for(int i = heap_size / 2; i > 0; i--)
        {
         heapify(arr, heap_size, i);
@@ -64,7 +65,8 @@ void heapSort(int* arr, int heap_size)
     }
 }
 
-void introSort(int* arr, int start, int end, int maxdepth) 
+template<typename T>
+void introSort(T* arr, int start, int end, int maxdepth) 
 {
     if(maxdepth <= 0) 
     {
@@ -82,7 +84,8 @@ void introSort(int* arr, int start, int end, int maxdepth)
     }
 }
 
-void hybridIntroSort(int* arr, int start, int end) 
+template<typename T>
+void hybridIntroSort(T* arr, int start, int end) 
 {
     introSort(arr, start, end, (2 * log(end - start)));
     insertionSort(arr, start, end);

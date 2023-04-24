@@ -30,8 +30,8 @@ Things to remember during upgrading project to new task:
 //                         Locate files (change as needed).
 // --------------------------------------------------------------------------------
 set(SOURCES          // All .cpp files in src/
-    src/quick_sort.cpp
-    src/merge_sort.cpp
+    //src/quick_sort.cpp
+    //src/merge_sort.cpp
     
     
      // etc.

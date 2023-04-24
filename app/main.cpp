@@ -8,37 +8,67 @@
 #include "../inc/merge_sort.hh"
 #include "../inc/intro.hh"
 
+#include <vector>
+
+struct Film{
+    float rating;
+    std::string id;
+    std::string title;
+    bool operator <(Film compare){return (rating < compare.rating);};
+    bool operator >(Film compare){return (rating > compare.rating);};
+    bool operator <=(Film compare){return (rating <= compare.rating);}; 
+};
+
 int main()
-
 {
+
+   struct Film f[2];
+   
+   f[0].rating = 2;
+   f[0].id = "dwa";
+   f[1].rating = 1;
+   f[1].id = "jeden";  
     /*
-    int x[] = {7,2,1,6,8,5,3,4};
-    int end = (sizeof(x)/sizeof(int)) - 1;
-    
-    Quicksort(x,0,end);
-    for(int i=0; i < 7; i++)
-    {
-        std::cout << x[i] << std::endl;
+    for(int i=0; i < 2;i++){
+        f[i].rating = 1;
+        f[i].id = "i";
     }
-    */
-
-    int a[] = {4,6,1,2,7};
-    
-    int last = (sizeof(a)/sizeof(int));
-    
-    mergeSort(a,0,last);
-    for(int i=0; i < last; i++)
-    {
-        std::cout << a[i] << std::endl;
+*/
+for(int i=0; i < 2;i++){
+    std::cout <<  f[i].rating << " " << f[i].id <<std::endl;
     }
 
-    int x[] = {4,6,1,2,7};
-    hybridIntroSort(x,0,4);
-    for(int i=0; i < last; i++)
-    {
-        std::cout << x[i] << std::endl;
+    if(f[0] > f[1]){
+        std::cout << "True";
+    }
+    else{
+        std::cout << "False";
     }
 
+hybridIntroSort(f,0,1);
+
+
+   for(int i=0; i < 2;i++){
+    std::cout <<  f[i].rating << " " << f[i].id <<std::endl;
+    }
+   /*
+int f[1000000];
+for(int i=0; i < 1000000;i++){
+        f[i] = rand() % 1000000 +1;
+       
+    }
+
+    
+    
+    
+    mergeSort(f,0,1000000);
+    for(int i=0; i < 1000000; i++)
+    {
+        std::cout << f[i] << std::endl;
+    }
+*/
+   return 0;
+}
 /*
      float arr[]
         = { 0.897, 0.565, 0.656, 0.1234, 0.665, 0.3434 };
@@ -50,7 +80,4 @@ int main()
     for (int i = 0; i < n; i++)
         std::cout << arr[i] << " ";
    */
-
-
-    return 0;
-}
+ 
