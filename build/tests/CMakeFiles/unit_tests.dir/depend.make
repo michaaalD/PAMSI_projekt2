@@ -3,6 +3,7 @@
 
 tests/CMakeFiles/unit_tests.dir/main.cpp.o: ../tests/main.cpp
 
+tests/CMakeFiles/unit_tests.dir/test_file.cpp.o: ../inc/binary_search.hh
 tests/CMakeFiles/unit_tests.dir/test_file.cpp.o: ../inc/intro.hh
 tests/CMakeFiles/unit_tests.dir/test_file.cpp.o: ../inc/merge_sort.hh
 tests/CMakeFiles/unit_tests.dir/test_file.cpp.o: ../inc/quick_sort..hh

@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/michal/Desktop/PAMSI_projekt2/src/merge_sort.cpp
+/home/michal/Desktop/PAMSI_projekt2/inc/binary_search.hh
 
-/home/michal/Desktop/PAMSI_projekt2/src/quick_sort.cpp
+/home/michal/Desktop/PAMSI_projekt2/src/binary_search.cpp
+../inc/binary_search.hh
+/home/michal/Desktop/PAMSI_projekt2/inc/binary_search.hh
 

@@ -11,14 +11,26 @@ doctest/doctest.h
 /home/michal/Desktop/PAMSI_projekt2/app/doctest/doctest.h
 iostream
 -
+sstream
+-
+fstream
+-
+chrono
+-
+iomanip
+-
 ../inc/quick_sort..hh
 /home/michal/Desktop/PAMSI_projekt2/inc/quick_sort..hh
 ../inc/merge_sort.hh
 /home/michal/Desktop/PAMSI_projekt2/inc/merge_sort.hh
 ../inc/intro.hh
 /home/michal/Desktop/PAMSI_projekt2/inc/intro.hh
+../inc/binary_search.hh
+/home/michal/Desktop/PAMSI_projekt2/inc/binary_search.hh
 vector
 -
+
+/home/michal/Desktop/PAMSI_projekt2/inc/binary_search.hh
 
 /home/michal/Desktop/PAMSI_projekt2/inc/intro.hh
 algorithm

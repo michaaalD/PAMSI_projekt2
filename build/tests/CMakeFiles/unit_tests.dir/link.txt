@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/unit_tests.dir/main.cpp.o CMakeFiles/unit_tests.dir/test_file.cpp.o ../CMakeFiles/program.dir/src/quick_sort.cpp.o ../CMakeFiles/program.dir/src/merge_sort.cpp.o  -o ../unit_tests 
+/usr/bin/c++  -g   CMakeFiles/unit_tests.dir/main.cpp.o CMakeFiles/unit_tests.dir/test_file.cpp.o ../CMakeFiles/program.dir/src/binary_search.cpp.o  -o ../unit_tests 

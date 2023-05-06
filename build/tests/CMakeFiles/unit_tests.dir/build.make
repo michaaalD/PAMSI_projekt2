@@ -90,13 +90,11 @@ unit_tests_OBJECTS = \
 
 # External object files for target unit_tests
 unit_tests_EXTERNAL_OBJECTS = \
-"/home/michal/Desktop/PAMSI_projekt2/build/CMakeFiles/program.dir/src/quick_sort.cpp.o" \
-"/home/michal/Desktop/PAMSI_projekt2/build/CMakeFiles/program.dir/src/merge_sort.cpp.o"
+"/home/michal/Desktop/PAMSI_projekt2/build/CMakeFiles/program.dir/src/binary_search.cpp.o"
 
 unit_tests: tests/CMakeFiles/unit_tests.dir/main.cpp.o
 unit_tests: tests/CMakeFiles/unit_tests.dir/test_file.cpp.o
-unit_tests: CMakeFiles/program.dir/src/quick_sort.cpp.o
-unit_tests: CMakeFiles/program.dir/src/merge_sort.cpp.o
+unit_tests: CMakeFiles/program.dir/src/binary_search.cpp.o
 unit_tests: tests/CMakeFiles/unit_tests.dir/build.make
 unit_tests: tests/CMakeFiles/unit_tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/michal/Desktop/PAMSI_projekt2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../unit_tests"

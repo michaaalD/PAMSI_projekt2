@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+../inc/binary_search.hh
+
 ../inc/intro.hh
 algorithm
 -
@@ -115,4 +117,6 @@ merge_sort.hh
 /home/michal/Desktop/PAMSI_projekt2/tests/merge_sort.hh
 intro.hh
 /home/michal/Desktop/PAMSI_projekt2/tests/intro.hh
+binary_search.hh
+/home/michal/Desktop/PAMSI_projekt2/tests/binary_search.hh
 

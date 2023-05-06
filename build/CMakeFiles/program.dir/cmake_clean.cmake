@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/program.dir/src/merge_sort.cpp.o"
-  "CMakeFiles/program.dir/src/quick_sort.cpp.o"
+  "CMakeFiles/program.dir/src/binary_search.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

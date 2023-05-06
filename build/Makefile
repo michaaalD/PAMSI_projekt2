@@ -649,59 +649,32 @@ app/main.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/app/main.cpp.s
 .PHONY : app/main.cpp.s
 
-src/merge_sort.o: src/merge_sort.cpp.o
+src/binary_search.o: src/binary_search.cpp.o
 
-.PHONY : src/merge_sort.o
-
-# target to build an object file
-src/merge_sort.cpp.o:
-	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/merge_sort.cpp.o
-.PHONY : src/merge_sort.cpp.o
-
-src/merge_sort.i: src/merge_sort.cpp.i
-
-.PHONY : src/merge_sort.i
-
-# target to preprocess a source file
-src/merge_sort.cpp.i:
-	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/merge_sort.cpp.i
-.PHONY : src/merge_sort.cpp.i
-
-src/merge_sort.s: src/merge_sort.cpp.s
-
-.PHONY : src/merge_sort.s
-
-# target to generate assembly for a file
-src/merge_sort.cpp.s:
-	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/merge_sort.cpp.s
-.PHONY : src/merge_sort.cpp.s
-
-src/quick_sort.o: src/quick_sort.cpp.o
-
-.PHONY : src/quick_sort.o
+.PHONY : src/binary_search.o
 
 # target to build an object file
-src/quick_sort.cpp.o:
-	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/quick_sort.cpp.o
-.PHONY : src/quick_sort.cpp.o
+src/binary_search.cpp.o:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/binary_search.cpp.o
+.PHONY : src/binary_search.cpp.o
 
-src/quick_sort.i: src/quick_sort.cpp.i
+src/binary_search.i: src/binary_search.cpp.i
 
-.PHONY : src/quick_sort.i
+.PHONY : src/binary_search.i
 
 # target to preprocess a source file
-src/quick_sort.cpp.i:
-	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/quick_sort.cpp.i
-.PHONY : src/quick_sort.cpp.i
+src/binary_search.cpp.i:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/binary_search.cpp.i
+.PHONY : src/binary_search.cpp.i
 
-src/quick_sort.s: src/quick_sort.cpp.s
+src/binary_search.s: src/binary_search.cpp.s
 
-.PHONY : src/quick_sort.s
+.PHONY : src/binary_search.s
 
 # target to generate assembly for a file
-src/quick_sort.cpp.s:
-	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/quick_sort.cpp.s
-.PHONY : src/quick_sort.cpp.s
+src/binary_search.cpp.s:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/binary_search.cpp.s
+.PHONY : src/binary_search.cpp.s
 
 # Help Target
 help:
@@ -754,12 +727,9 @@ help:
 	@echo "... app/main.o"
 	@echo "... app/main.i"
 	@echo "... app/main.s"
-	@echo "... src/merge_sort.o"
-	@echo "... src/merge_sort.i"
-	@echo "... src/merge_sort.s"
-	@echo "... src/quick_sort.o"
-	@echo "... src/quick_sort.i"
-	@echo "... src/quick_sort.s"
+	@echo "... src/binary_search.o"
+	@echo "... src/binary_search.i"
+	@echo "... src/binary_search.s"
 .PHONY : help
 
 

@@ -57,34 +57,20 @@ include CMakeFiles/program.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/program.dir/flags.make
 
-CMakeFiles/program.dir/src/quick_sort.cpp.o: CMakeFiles/program.dir/flags.make
-CMakeFiles/program.dir/src/quick_sort.cpp.o: ../src/quick_sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/PAMSI_projekt2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/program.dir/src/quick_sort.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/src/quick_sort.cpp.o -c /home/michal/Desktop/PAMSI_projekt2/src/quick_sort.cpp
+CMakeFiles/program.dir/src/binary_search.cpp.o: CMakeFiles/program.dir/flags.make
+CMakeFiles/program.dir/src/binary_search.cpp.o: ../src/binary_search.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/PAMSI_projekt2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/program.dir/src/binary_search.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/src/binary_search.cpp.o -c /home/michal/Desktop/PAMSI_projekt2/src/binary_search.cpp
 
-CMakeFiles/program.dir/src/quick_sort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/src/quick_sort.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michal/Desktop/PAMSI_projekt2/src/quick_sort.cpp > CMakeFiles/program.dir/src/quick_sort.cpp.i
+CMakeFiles/program.dir/src/binary_search.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/src/binary_search.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michal/Desktop/PAMSI_projekt2/src/binary_search.cpp > CMakeFiles/program.dir/src/binary_search.cpp.i
 
-CMakeFiles/program.dir/src/quick_sort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/quick_sort.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michal/Desktop/PAMSI_projekt2/src/quick_sort.cpp -o CMakeFiles/program.dir/src/quick_sort.cpp.s
+CMakeFiles/program.dir/src/binary_search.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/binary_search.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michal/Desktop/PAMSI_projekt2/src/binary_search.cpp -o CMakeFiles/program.dir/src/binary_search.cpp.s
 
-CMakeFiles/program.dir/src/merge_sort.cpp.o: CMakeFiles/program.dir/flags.make
-CMakeFiles/program.dir/src/merge_sort.cpp.o: ../src/merge_sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/PAMSI_projekt2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/program.dir/src/merge_sort.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/src/merge_sort.cpp.o -c /home/michal/Desktop/PAMSI_projekt2/src/merge_sort.cpp
-
-CMakeFiles/program.dir/src/merge_sort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/src/merge_sort.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michal/Desktop/PAMSI_projekt2/src/merge_sort.cpp > CMakeFiles/program.dir/src/merge_sort.cpp.i
-
-CMakeFiles/program.dir/src/merge_sort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/merge_sort.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michal/Desktop/PAMSI_projekt2/src/merge_sort.cpp -o CMakeFiles/program.dir/src/merge_sort.cpp.s
-
-program: CMakeFiles/program.dir/src/quick_sort.cpp.o
-program: CMakeFiles/program.dir/src/merge_sort.cpp.o
+program: CMakeFiles/program.dir/src/binary_search.cpp.o
 program: CMakeFiles/program.dir/build.make
 
 .PHONY : program
